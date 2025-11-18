@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Alumni</title>
+    <style>
+        body {
+            background: #FFF8DC;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        input {
+            padding: 10px;
+            width: 70%;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Search Alumni</h2>
+
+    <form method="GET" action="/search">
+        <input type="text" name="name" placeholder="Enter Name" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <br><a href="/frontend/index.html">Back</a>
+
+</body>
+
+</html>
